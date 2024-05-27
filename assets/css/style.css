@@ -1,19 +1,19 @@
 @charset "UTF-8";
 @font-face {
   font-family: "Semi-Bold";
-  src: url(../../fonts/Poppins-SemiBold.woff);
+  src: url(../../fonts/Sora-Semibold.ttf);
 }
 @font-face {
   font-family: "Light";
-  src: url(../../fonts/Poppins-Light.woff);
+  src: url(../../fonts/Sora-Light.ttf);
 }
 @font-face {
   font-family: "Medium";
-  src: url(../../fonts/Poppins-Regular.woff);
+  src: url(../../fonts/Sora-Medium.ttf);
 }
 @font-face {
   font-family: "Helvetica";
-  src: url(../../fonts/Poppins-Regular.woff);
+  src: url(../../fonts/Chillax-Regular.ttf);
 }
 .display2 {
   font-family: "Semi-Bold";
@@ -106,13 +106,13 @@ span, .span {
   color: #6286E5;
 }
 .color-Primary500 {
-  color: #0047FF;
+  color: #FF004D;
 }
 .color-Primary600 {
   color: #1A316A;
 }
 .color-Primary700 {
-  color: #04050E;
+  color: #000000;
 }
 .color-Secondary300 {
   color: #e7ecee;
@@ -124,7 +124,7 @@ span, .span {
   color: #1d1e20;
 }
 .color-Terciary {
-  color: #d50909;
+  color: #FFB800;
 }
 
 .bg-Primary300 {
@@ -134,13 +134,13 @@ span, .span {
   background-color: #6286E5;
 }
 .bg-Primary500 {
-  background-color: #0047FF;
+  background-color: #FF004D;
 }
 .bg-Primary600 {
   background-color: #1A316A;
 }
 .bg-Primary700 {
-  background-color: #04050E;
+  background-color: #000000;
 }
 .bg-Secondary300 {
   background-color: #e7ecee;
@@ -152,7 +152,7 @@ span, .span {
   background-color: #1d1e20;
 }
 .bg-TerciaryOrange {
-  background-color: #d50909;
+  background-color: #FFB800;
 }
 .bg-TerciaryGreen {
   background-color: #92C100;
@@ -165,13 +165,13 @@ span, .span {
   border: 1px solid #6286E5;
 }
 .border-Primary500 {
-  border: 1px solid #0047FF;
+  border: 1px solid #FF004D;
 }
 .border-Primary600 {
   border: 1px solid #1A316A;
 }
 .border-Primary700 {
-  border: 1px solid #04050E;
+  border: 1px solid #000000;
 }
 .border-Secondary300 {
   border: 1px solid #e7ecee;
@@ -183,7 +183,7 @@ span, .span {
   border: 1px solid #1d1e20;
 }
 .border-TerciaryOrange {
-  border: 1px solid #d50909;
+  border: 1px solid #FFB800;
 }
 .border-TerciaryGreen {
   border: 1px solid #92C100;
@@ -192,7 +192,7 @@ span, .span {
 #preloader {
   width: 100vw;
   height: 100vh;
-  background: #04050E;
+  background: #000000;
   position: fixed;
   display: grid;
   align-items: center;
@@ -221,7 +221,7 @@ span, .span {
   border: 0;
   height: 1px;
   overflow: hidden;
-  background-color: #04050E;
+  background-color: #000000;
 }
 @media (max-width: 500px) {
   .pace {
@@ -236,7 +236,7 @@ span, .span {
   right: 100%;
   height: 100%;
   width: 100%;
-  background-color: #0047FF;
+  background-color: #FF004D;
 }
 
 .button_section {
@@ -311,34 +311,34 @@ button, .button {
 }
 .btn-primary-dark_main:active {
   transform: scale(95%);
-  background-color: #0047FF;
+  background-color: #FF004D;
   box-shadow: 0px 4px 9px rgba(21, 46, 55, 0.41);
   transition: 100ms;
 }
 .btn-primary-dark_secondary {
-  background-color: #0047FF;
+  background-color: #FF004D;
   color: white;
   transition: 300ms;
 }
 .btn-primary-dark_secondary:hover {
-  border: 1px solid #0047FF;
+  border: 1px solid #FF004D;
   cursor: pointer;
   background-color: #1A316A;
   transition: 100ms;
 }
 .btn-primary-dark_secondary:active {
   transform: scale(95%);
-  color: #0047FF;
+  color: #FF004D;
   background-color: white;
   transition: 100ms;
 }
 .btn-primary-light {
   background-color: white;
-  color: #0047FF;
+  color: #FF004D;
 }
 .btn-primary-light:hover {
   cursor: pointer;
-  border: 1px solid #0047FF;
+  border: 1px solid #FF004D;
   transition: 100ms;
 }
 .btn-primary-light:active {
@@ -359,34 +359,34 @@ button, .button {
 }
 .btn-icon-dark_main:active {
   transform: scale(95%);
-  background-color: #0047FF;
+  background-color: #FF004D;
   box-shadow: 0px 4px 9px rgba(21, 46, 55, 0.41);
   transition: 100ms;
 }
 .btn-icon-dark_secondary {
-  background-color: #0047FF;
+  background-color: #FF004D;
   color: white;
   transition: 300ms;
 }
 .btn-icon-dark_secondary:hover {
-  border: 1px solid #0047FF;
+  border: 1px solid #FF004D;
   cursor: pointer;
   background-color: #1A316A;
   transition: 100ms;
 }
 .btn-icon-dark_secondary:active {
   transform: scale(95%);
-  color: #0047FF;
+  color: #FF004D;
   background-color: white;
   transition: 100ms;
 }
 .btn-icon-light {
   background-color: white;
-  color: #0047FF;
+  color: #FF004D;
 }
 .btn-icon-light:hover {
   cursor: pointer;
-  border: 1px solid #0047FF;
+  border: 1px solid #FF004D;
   transition: 100ms;
 }
 .btn-icon-light:active {
@@ -403,7 +403,7 @@ button, .button {
   cursor: pointer;
   background-color: white;
   transition: 100ms;
-  color: #0047FF;
+  color: #FF004D;
 }
 
 .Header {
@@ -418,7 +418,7 @@ button, .button {
   gap: 1rem;
 }
 .Header .logo img {
-  height: 35px;
+  height: 55px;
 }
 .Header .logo :hover {
   cursor: pointer;
@@ -434,7 +434,7 @@ button, .button {
   align-items: center;
   gap: 2rem;
   padding-left: 2rem;
-  border-left: 1px solid #0047FF;
+  border-left: 1px solid #FF004D;
 }
 @media (max-width: 500px) {
   .Header .title {
@@ -481,7 +481,7 @@ span {
 }
 
 .section:hover {
-  color: #0047FF;
+  color: #FF004D;
   cursor: pointer;
 }
 .section:active {
@@ -581,7 +581,7 @@ span {
   }
 }
 .tipografía .Intro .escala .muestra:hover {
-  background-color: #0047FF;
+  background-color: #FF004D;
   cursor: pointer;
 }
 .tipografía .Intro .escala .muestra .details {
@@ -696,7 +696,7 @@ span {
   width: 8rem;
   height: 4rem;
   border-radius: 0.5rem;
-  border: 2px solid #0047FF;
+  border: 2px solid #FF004D;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -712,7 +712,7 @@ span {
   width: 8rem;
   border-radius: 1rem;
   height: 4rem;
-  border: 2px solid #0047FF;
+  border: 2px solid #FF004D;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -728,7 +728,7 @@ span {
   width: 8rem;
   border-radius: 1.5rem;
   height: 4rem;
-  border: 2px solid #0047FF;
+  border: 2px solid #FF004D;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -744,7 +744,7 @@ span {
   width: 8rem;
   border-radius: 2rem;
   height: 4rem;
-  border: 2px solid #0047FF;
+  border: 2px solid #FF004D;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -795,7 +795,7 @@ input {
   transition: 200ms;
 }
 .input_dark:active {
-  color: #0047FF;
+  color: #FF004D;
 }
 
 .input_light {
@@ -838,7 +838,7 @@ input {
   border-radius: 0.5rem;
 }
 .badge-primary {
-  background-color: #0047FF;
+  background-color: #FF004D;
   color: white;
   cursor: pointer;
 }
@@ -853,7 +853,7 @@ input {
 }
 .badge-secondary {
   background-color: #919697;
-  color: #04050E;
+  color: #000000;
 }
 
 .search-dark {
@@ -869,7 +869,7 @@ input {
 .search-dark:hover {
   cursor: pointer;
   transition: 200ms;
-  border: 1px solid #0047FF;
+  border: 1px solid #FF004D;
 }
 .search-light {
   display: flex;
@@ -891,7 +891,7 @@ label {
   transition: 500ms;
 }
 label .alert_error {
-  background-color: #d50909;
+  background-color: #FFB800;
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -906,7 +906,7 @@ label .alert_error .alertClose {
   margin: 0;
 }
 label .alert_succes {
-  background-color: #0047FF;
+  background-color: #FF004D;
   color: white;
   display: flex;
   flex-direction: row;
@@ -972,7 +972,7 @@ label .alertCheckbox {
   cursor: pointer;
 }
 .Cards .card1_main .card_img {
-  border-left: 1rem solid #0047FF;
+  border-left: 1rem solid #FF004D;
 }
 .Cards .card1_main .card_img img {
   width: 20rem;
@@ -1102,7 +1102,7 @@ label .alertCheckbox {
   }
 }
 .card_poster .card_poster_main {
-  background-color: #0047FF;
+  background-color: #FF004D;
 }
 @media (max-width: 500px) {
   .card_poster .card_poster_main {
@@ -1189,7 +1189,7 @@ label .alertCheckbox {
   margin-top: 2rem;
   color: #CDDBFF;
   background-color: #1d1e20;
-  border-bottom: 2px solid #0047FF;
+  border-bottom: 2px solid #FF004D;
 }
 .Nav_header .navbar .links {
   display: flex;
@@ -1197,7 +1197,7 @@ label .alertCheckbox {
   align-items: center;
 }
 .Nav_header .navbar .links li:hover {
-  color: #0047FF;
+  color: #FF004D;
 }
 @media (max-width: 500px) {
   .Nav_header .navbar .links {
@@ -1210,7 +1210,7 @@ label .alertCheckbox {
   color: #fff;
 }
 .Nav_header .navbar a:hover {
-  color: #0047FF;
+  color: #FF004D;
 }
 .Nav_header .navbar .toggle_btn {
   cursor: pointer;
@@ -1262,7 +1262,7 @@ label .alertCheckbox {
 }
 .Forms .formulario .remember .checkbox:active {
   background-color: #1d1e20;
-  color: #0047FF;
+  color: #FF004D;
 }
 .Forms .formulario .btn_forms {
   display: flex;
@@ -1273,7 +1273,7 @@ label .alertCheckbox {
   max-width: 100%;
 }
 .Forms .formulario .btn_forms p a {
-  color: #04050E;
+  color: #000000;
 }
 .Forms .formulario .btn_forms p a:hover {
   text-decoration: underline;
@@ -1315,7 +1315,7 @@ a {
   grid-template-rows: 100px 1fr;
   grid-template-columns: 250px 1fr;
   height: 100%;
-  background-color: #04050E;
+  background-color: #000000;
   color: #fff;
 }
 @media (max-width: 500px) {
