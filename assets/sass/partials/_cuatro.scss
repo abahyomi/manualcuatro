@@ -1,4 +1,4 @@
-.logoSection{
+.logoSection {
     display: flex;
     flex-direction: column;
     gap: 2rem;
@@ -6,24 +6,39 @@
     border-bottom: .5px solid rgb(180, 200, 231);
     margin-bottom: 2rem;
 
-    img{
+
+    img {
         transition: 300ms;
-        &:hover{
+        max-width: 70vw;
+        padding: 2rem;
+
+        &:hover {
             transform: scale(102%);
             cursor: pointer;
         }
     }
 
-    .logoMain{
-        img{
-            max-width: 60vw;
+    .titleCon{
+       margin-bottom: 4rem;
+    }
+
+
+    .logoMain {
+        img {
+            max-width: 70vw;
         }
     }
 
-    .logoImago{
-        img{
-            max-width: 60vw;
+    .logoImago {
+        img {
+            max-width: 70vw;
         }
+    }
+
+    .specimen{
+        display: flex;
+        padding: 2rem;
+        max-width: 70%;
     }
 
 }

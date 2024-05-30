@@ -1,7 +1,7 @@
 @charset "UTF-8";
 @font-face {
   font-family: "Semi-Bold";
-  src: url(../../fonts/Sora-Medium.woff2);
+  src: url(../../fonts/Sora-Regular.woff2);
 }
 @font-face {
   font-family: "Light";
@@ -1298,16 +1298,26 @@ label .alertCheckbox {
 }
 .logoSection img {
   transition: 300ms;
+  max-width: 70vw;
+  padding: 2rem;
 }
 .logoSection img:hover {
   transform: scale(102%);
   cursor: pointer;
 }
+.logoSection .titleCon {
+  margin-bottom: 4rem;
+}
 .logoSection .logoMain img {
-  max-width: 60vw;
+  max-width: 70vw;
 }
 .logoSection .logoImago img {
-  max-width: 60vw;
+  max-width: 70vw;
+}
+.logoSection .specimen {
+  display: flex;
+  padding: 2rem;
+  max-width: 70%;
 }
 
 * {
