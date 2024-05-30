@@ -17,6 +17,10 @@
         padding: 2rem 0rem;
         margin-right: 2rem;
 
+        @media (max-width:500px) {
+            max-width: 85vw;
+        }
+
         &:hover {
             transform: scale(102%);
             cursor: pointer;

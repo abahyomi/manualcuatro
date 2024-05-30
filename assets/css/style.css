@@ -305,7 +305,7 @@ button, .button {
 }
 .btn-primary-dark_main:hover {
   cursor: pointer;
-  background-color: #1A316A;
+  background-color: #FF004C;
   color: white;
   transition: 100ms;
 }
@@ -555,9 +555,24 @@ span {
   }
 }
 
+.tipografía .grafica {
+  border-bottom: 0.5px solid rgb(180, 200, 231);
+  margin-bottom: 2rem;
+}
 .tipografía .color {
   border-bottom: 0.5px solid rgb(180, 200, 231);
   margin-bottom: 2rem;
+}
+.tipografía video {
+  max-width: 80vw;
+}
+@media (max-width: 500px) {
+  .tipografía video {
+    max-width: 90vw;
+  }
+}
+.tipografía .specimen {
+  max-width: 80%;
 }
 .tipografía .margin-top {
   margin-top: 2rem;
@@ -567,6 +582,11 @@ span {
   max-width: 70vw;
   padding: 2rem 0rem;
   margin-right: 2rem;
+}
+@media (max-width: 500px) {
+  .tipografía img {
+    max-width: 85vw;
+  }
 }
 .tipografía img:hover {
   transform: scale(102%);
@@ -580,7 +600,6 @@ span {
 .tipografía .Intro .st {
   display: flex;
   flex-direction: column;
-  margin-left: 1rem;
   gap: 1rem;
 }
 .tipografía .Intro .escala .muestra {
@@ -1322,6 +1341,11 @@ label .alertCheckbox {
   max-width: 70vw;
   padding: 2rem 0rem;
   margin-right: 2rem;
+}
+@media (max-width: 500px) {
+  .logoSection img {
+    max-width: 85vw;
+  }
 }
 .logoSection img:hover {
   transform: scale(102%);

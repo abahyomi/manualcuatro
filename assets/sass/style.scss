@@ -53,6 +53,7 @@ a {
     background-color: $primary700;
     color: #fff;
 
+
     @media (max-width:1000px) {
         grid-template-columns: 150px 1fr;
     }
