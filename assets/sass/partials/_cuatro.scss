@@ -6,11 +6,16 @@
     border-bottom: .5px solid rgb(180, 200, 231);
     margin-bottom: 2rem;
 
+    .margin-top{
+        margin-top: 2rem;
+    }
+
 
     img {
         transition: 300ms;
         max-width: 70vw;
-        padding: 2rem;
+        padding: 2rem 0rem;
+        margin-right: 2rem;
 
         &:hover {
             transform: scale(102%);
