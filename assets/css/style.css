@@ -13,7 +13,7 @@
 }
 @font-face {
   font-family: "Helvetica";
-  src: url(../../fonts/Chillax-Regular.ttf);
+  src: url(../../fonts/Sora-Regular.ttf);
 }
 .display2 {
   font-family: "Semi-Bold";
@@ -517,11 +517,18 @@ span {
   border-bottom: 0.5px solid rgb(180, 200, 231);
   margin-bottom: 2rem;
 }
+.hero .intro {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+.hero .imgintro img {
+  max-width: 60vw;
+}
 .hero .responsive-video {
   width: 100%;
   max-width: 900px;
   height: auto;
-  border-radius: 2rem;
   transition: 400ms;
 }
 .hero .responsive-video:hover {
@@ -534,7 +541,6 @@ span {
   max-width: 1200px;
   height: auto;
   overflow: hidden;
-  border-radius: 1rem;
   transition: 300ms;
 }
 .hero img:hover {
@@ -1282,6 +1288,28 @@ label .alertCheckbox {
   transform: scale(95%);
 }
 
+.logoSection {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  padding: 1rem 1rem 4rem 1rem;
+  border-bottom: 0.5px solid rgb(180, 200, 231);
+  margin-bottom: 2rem;
+}
+.logoSection img {
+  transition: 300ms;
+}
+.logoSection img:hover {
+  transform: scale(102%);
+  cursor: pointer;
+}
+.logoSection .logoMain img {
+  max-width: 60vw;
+}
+.logoSection .logoImago img {
+  max-width: 60vw;
+}
+
 * {
   font-size: 16px;
   box-sizing: border-box;
@@ -1318,6 +1346,11 @@ a {
   background-color: #000000;
   color: #fff;
 }
+@media (max-width: 1000px) {
+  .Framework {
+    grid-template-columns: 150px 1fr;
+  }
+}
 @media (max-width: 500px) {
   .Framework {
     grid-template-columns: 1fr;
@@ -1339,6 +1372,7 @@ a {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  width: 100vw;
 }
 @media (max-width: 500px) {
   .Header {
@@ -1363,6 +1397,11 @@ a {
   z-index: 1000; /* Ensure menu is on top of other content */
   box-shadow: 0 20px 50px rgba(255, 255, 255, 0.041); /* Optional: Add box shadow */
 }
+@media (max-width: 1000px) {
+  .Menu {
+    width: 140px;
+  }
+}
 @media (max-width: 500px) {
   .Menu {
     display: none;
@@ -1373,6 +1412,7 @@ a {
   display: grid;
   grid-area: 2/2/2/-1;
   padding: 2rem;
+  max-width: 100%;
 }
 @media (max-width: 500px) {
   .Components {
